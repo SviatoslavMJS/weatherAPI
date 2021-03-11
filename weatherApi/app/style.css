@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+}
+body {
+    background: no-repeat url("./images/weather.png");
+    background-size: 100% 100vh;
+    
+}
+.package {
+    
+    display: grid;
+    width: 20%;
+    margin: 50px auto ;
+    background: rgb(108, 119, 119);
+    border: 5px solid rgb(106, 230, 137);
+    border-radius: 10px;
+    min-width:200px;
+    opacity: 0.9;
+}
+p {
+    color: #fff;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    min-width: 30%;
+}
+.city{
+    margin: 10px auto;
+}
+.price {
+    color: #9ae8eb;
+    margin: 10px auto;
+    font-size: 40px;
+}
+.disclaimer {
+    font-size: 20px;
+    margin: 10px auto;
+}
+ .img2 {
+     margin: 0 auto 5px auto;
+     background: #78c4c7;
+}
+
+
+hr {
+    
+    border: none; 
+    color:rgb(106, 230, 137);
+    background-color:rgb(106, 230, 137);  
+    height: 2px;
+    width: 80%;
+    margin: 0 auto;
+}
+ .wind {
+    margin: 10px auto;
+ }
+ .inp {
+     display: block;
+     color: #fff;
+     margin-bottom: 20px;
+     font-size: 15px;
+     padding: 5px;
+ }
+ .butt {
+     
+     background: rgb(106, 230, 137);
+     color: #ffff;
+     margin-top: 20px;
+     font-size: 15px;
+     font-weight: 900;
+ }
